@@ -1,0 +1,63 @@
+/* Heading Spacing */
+h1 {
+    margin: 0;
+}
+h1 + p {
+    margin-top: 0;
+}
+h3 {
+    margin-top: 44px;
+}
+
+/* Image Center */
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Code & Output Text Style */
+code {
+    color: #600;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+code.output {
+    color: black;
+    font-weight: bolder;
+}
+.blue {
+    color: #00f;
+    font-weight: normal;
+}
+
+/* Table Center */
+table {
+    margin: 0 auto;
+}
+
+/* Styling for Balls Table */
+table.balls {
+    border-collapse: collapse;
+    border: 1px solid black;
+    background-color: #ccc;
+}
+table.balls td {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    padding: 5px;
+}
+td table {
+    margin-left: 20px;
+}
+
+/* Styling for Data Table */
+table.data {
+    border-collapse: separate;
+    border: 1px ridge #ccc;
+}
+table.data td {
+    border: 1px ridge #333;
+}
+table.data td.bg-grey {
+    background-color: #ccc;
+}
